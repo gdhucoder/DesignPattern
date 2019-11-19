@@ -16,7 +16,7 @@
 
 代理模型是控制Client对真实对象的访问，而装饰器模式是给原有的类增加功能。
 
-
+## 代码
 
 ```java
 public class Client {
