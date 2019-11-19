@@ -10,7 +10,7 @@ xxx
 
 小明喜欢小红，却不敢向小红献殷勤。小明找他的好朋友小刚（代理）帮忙，给小红送洋娃娃、送花、送巧克力。结果日久生情，小刚和小红好上了，小明还是单身狗🐶。
 
-![proxy pattern](https://gitee.com/gdhu/testtingop/raw/master/Screen Shot 2019-11-19 at 12.34.27.png)
+![proxy pattern](https://gitee.com/gdhu/testtingop/raw/master/2019-11-19-001.png)
 
 ## 代理模式（Proxy）和装饰器模式（Decorator）模式有啥区别呢？
 
@@ -32,8 +32,6 @@ public class Client {
   }
 }
 ```
-
-](https://gitee.com/gdhu/prvpic/raw/master/2019-10-31-002.jpg)
 
 ```java
 public interface ISendPresents {
