@@ -12,7 +12,7 @@
 
 ## 装饰模式
 
-![decorato](https://gitee.com/gdhu/testtingop/raw/master/2019-11-20-001.jpg)
+![decorator](https://gitee.com/gdhu/testtingop/raw/master/2019-11-20-001.jpg)
 
 ## 代码
 
