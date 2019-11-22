@@ -10,7 +10,7 @@
 
 ## 结构图
 
-![facade pattern](https://gitee.com/gdhu/testtingop/raw/master/2019-11-22_011.jpg)
+![facade pattern](https://gitee.com/gdhu/testtingop/raw/master/2019-11-23_000.jpg)
 
 ## 用例
 
