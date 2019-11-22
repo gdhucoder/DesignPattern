@@ -24,7 +24,7 @@ public class Fund implements IInvestment{
 
   @Override
   public void buy() {
-    System.out.println("Fund Buy Operation");
+    System.out.println("Fund Buy Operation: " + fundName);
     stock1.buy();
     stock2.buy();
     stock3.buy();
