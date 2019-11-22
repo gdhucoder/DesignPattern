@@ -26,3 +26,13 @@
 - 开发阶段：系统需要重构演化，外观模式可以提供简单的接口，减少彼此依赖
 - 遗留大型系统：新系统与Facade对象交互，Facade与旧系统交互。
 
+## 参考资料
+
+- 大话设计模式
+
+- [Facade Pattern Ref-1](https://dzone.com/articles/design-patterns-uncovered-1)
+
+- [Facade Pattern Ref-2](https://www.tutorialspoint.com/design_pattern/facade_pattern.htm)
+
+- [Facade Pattern Ref-3](https://howtodoinjava.com/design-patterns/structural/facade-design-pattern/)
+
