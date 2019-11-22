@@ -9,7 +9,7 @@ an algorithm without changing the algorithms structure.
 
 定义算法骨架，将一些步骤推迟到子类中。模版方法可以不改变算法结构，重新定义一个算法的某些特定步骤。
 
-![template method pattern](https://gitee.com/gdhu/testtingop/raw/master/2019-11-21_008.jpg)
+![template method pattern](https://gitee.com/gdhu/testtingop/raw/master/2019-11-22_009.jpg)
 
 ## 注意的地方
 
