@@ -12,4 +12,5 @@ abstract public class Observer {
     this.name = name;
     this.sub = sub;
   }
+  public abstract void update();
 }
