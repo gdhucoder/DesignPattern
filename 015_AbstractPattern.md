@@ -27,6 +27,6 @@ java 中 `DocumentBuilderFactor`
 
 ## 参考
 
-[abstact-factory-pattern](https://howtodoinjava.com/design-patterns/creational/abstract-factory-pattern-in-java/)
+[abstract-factory-pattern](https://howtodoinjava.com/design-patterns/creational/abstract-factory-pattern-in-java/)
 
 [dzone-abstract-factory-pattern](https://dzone.com/articles/design-patterns-abstract-factory)
