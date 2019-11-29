@@ -9,7 +9,7 @@ incompatible interfaces.
 
 ## 类图
 
-![2019-11-29_014.jpg](https://gitee.com/gdhu/testtingop/raw/master/2019-11-29_014.jpg)
+![Adapter Pattern](https://gitee.com/gdhu/testtingop/raw/master/2019-11-29_014.jpg)
 
 ## 用例
 
@@ -19,9 +19,20 @@ incompatible interfaces.
 
 生活中的例子：电源转换插头，就是适配器。
 
+```java
+    // System.in inputstream
+    // BufferedReader <--> character
+    // InputStream <--> bytes stream
+    // InputStreamReader: Adapter (bytes stream to character)
+    BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+```
+
 
 
 ## 注意
 
+Adapter Pattern只是一个妥协，应当提前在设计方面避免使用adapter pattern。
+
 ## 参考
 
+[howtodo-adapter-pattern](https://howtodoinjava.com/design-patterns/structural/adapter-design-pattern-in-java/)
