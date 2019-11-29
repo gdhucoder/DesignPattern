@@ -28,6 +28,7 @@ into initial state when needed.
 
 ## 注意
 
+- 广义的讲：memento pattern，目的是保存状态、恢复状态，没有固定的实现规则。
 - 考虑对性能的影响
 - 多次回滚是否考虑用stack实现
 - `Ctrl-Y`的功能要如何实现呢？可以考虑再家一个stack
