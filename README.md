@@ -11,8 +11,9 @@ approach and examples using Java while learning Design Pattern concepts.
 
 BTW, I have drawn all UMLs by hand. :smiley:
 
-:white_check_mark: *13*
-:negative_squared_cross_mark: *10*
+:white_check_mark: **13**
+
+:negative_squared_cross_mark: **10** TBD
 
 Enjoy! Happy Learning!
 
