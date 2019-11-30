@@ -1,6 +1,6 @@
 ## 原型模式
 
-*Create objects based on a template of an exsiting object through cloning.* 使用克隆在已有对象的基础上创建对象。
+*Create objects based on a template of an existing object through cloning.* 使用克隆在已有对象的基础上创建对象。
 
 ## 类图
 
