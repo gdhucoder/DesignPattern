@@ -11,11 +11,18 @@ approach and examples using Java while learning Design Pattern concepts.
 
 BTW, I have drawn all UMLs by hand. :smiley:
 
-:white_check_mark: **13**
-
-:negative_squared_cross_mark: **10** TBD
-
 Enjoy! Happy Learning!
+
+Features:
+
+- :white_check_mark: Based on Java
+- :white_check_mark: Hand-Drawn UML
+- :white_check_mark: 23 common design patterns
+
+Progress:
+
+- :white_check_mark: **13**
+- :negative_squared_cross_mark: **10** TBD
 
 
 
