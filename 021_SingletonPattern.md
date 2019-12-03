@@ -55,6 +55,110 @@ public final class LazySingleton {
 }
 ```
 
+## 静态块初始化 Singleton with static block initialization
+
+这种方法在类加载的时候创建实例。有一个缺点：就是假设这个类里有5个静态变量，代码仅需要访问2-3个变量，这时创建
+instance就没有什么用。
+
+```java
+public class StaticBlockSingleton {
+
+  private static final StaticBlockSingleton instance;
+
+  static {
+    instance = new StaticBlockSingleton();
+  }
+
+  private StaticBlockSingleton() {}
+
+  public static StaticBlockSingleton getInstance() {
+    return instance;
+  }
+
+}
+```
+
+## Bill Pugh 单例
+
+LazyHolder类在需要时才创建。同时我们还可以访问其他静态变量。
+
+
+```java
+public class BillPughSingleton {
+
+  public static int NUM = 10;
+
+  private BillPughSingleton() {
+    System.out.println("create singleton.");
+  }
+
+  private static class LazyHolder {
+
+    static {
+      System.out.println("create class LazyHolder...");
+    }
+
+    private static final BillPughSingleton instance = new BillPughSingleton();
+  }
+
+  public static BillPughSingleton getInstance() {
+    return LazyHolder.instance;
+  }
+}
+```
+
+## 单例序列化
+
+反序列化时会重新生成实例。在类中加入`readResolve`方法。返回当前实例。
+
+>This method will be invoked when you will de-serialize the object. Inside of this method, you must return the existing instance to ensure a single instance application wide.
+
+```java
+public class DemoSingleton implements Serializable {
+
+  private static volatile DemoSingleton instance = null;
+
+  public static DemoSingleton getInstance() {
+    if (instance == null) {
+      instance = new DemoSingleton();
+    }
+    return instance;
+  }
+
+  private int i = 10;
+
+  // return existing instance.
+//  protected Object readResolve(){
+//    return instance;
+//  }
+
+  public int getI() {
+    return i;
+  }
+
+  public void setI(int i) {
+    this.i = i;
+  }
+}
+```
+
+## 序列号
+
+```java
+Exception in thread "main" java.io.InvalidClassException: u021.seri.DemoSingleton; local class incompatible: stream classdesc serialVersionUID = -6928200329713978600, local class serialVersionUID = 2784835485903072265
+	at java.base/java.io.ObjectStreamClass.initNonProxy(ObjectStreamClass.java:689)
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1903)
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1772)
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2060)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1594)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:430)
+	at u021.seri.Client.main(Client.java:21)
+```
+
+>This problem can be solved only by adding a unique serial version id to the class. It will prevent the compiler from throwing the exception by telling it that both classes are same, and will load the available instance variables only.
+
+
+
 ## 用例
 
 ## 实际应用
