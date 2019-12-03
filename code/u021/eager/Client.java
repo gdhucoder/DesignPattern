@@ -1,4 +1,6 @@
-package u021;
+package u021.eager;
+
+import u021.eager.EagerSingleton;
 
 /**
  * Created by HuGuodong on 12/3/19.

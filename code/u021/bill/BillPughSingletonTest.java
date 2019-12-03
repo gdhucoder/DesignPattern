@@ -1,4 +1,4 @@
-package u021;
+package u021.bill;
 
 /**
  * Created by HuGuodong on 12/3/19.
@@ -12,8 +12,8 @@ public class BillPughSingletonTest {
 //    System.out.println(BillPughSingleton.getInstance());
 //    System.out.println(BillPughSingleton.getInstance());
 //    create singleton.
-//    u021.BillPughSingleton@1134affc
-//    u021.BillPughSingleton@1134affc
+//    u021.bill.BillPughSingleton@1134affc
+//    u021.bill.BillPughSingleton@1134affc
 
     for (int i = 0; i < 100; i++) {
       Runnable r = ()->{

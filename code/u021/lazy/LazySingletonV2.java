@@ -1,4 +1,4 @@
-package u021;
+package u021.lazy;
 
 /**
  * Created by HuGuodong on 12/3/19.

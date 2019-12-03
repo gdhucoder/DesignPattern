@@ -1,4 +1,4 @@
-package u021;
+package u021.lazy;
 
 /**
  * Created by HuGuodong on 12/3/19.
@@ -16,7 +16,7 @@ public class LazySingletonV2Client {
       t.start();
     }
     // output
-    // instance address: u021.LazySingletonV2@1f3dd942
+    // instance address: u021.lazy.LazySingletonV2@1f3dd942
 
   }
 }
