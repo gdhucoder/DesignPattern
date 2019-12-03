@@ -63,6 +63,8 @@ public final class LazySingleton {
 
 ## 参考
 
+[双重检查锁🔒double-checked_locking](https://en.wikipedia.org/wiki/Double-checked_locking)
+
 Singleton is “one instance per JVM”, so each node will have its own copy of singleton.
 
 
