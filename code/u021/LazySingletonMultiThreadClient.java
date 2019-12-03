@@ -14,10 +14,11 @@ public class LazySingletonMultiThreadClient {
       var t = new Thread(r);
       t.start();
     }
-//    private constructor, instance created. u021.LazySingleton@179810e7
-//    private constructor, instance created. u021.LazySingleton@50b2315d
-//    private constructor, instance created. u021.LazySingleton@14d3f560
-//    private constructor, instance created. u021.LazySingleton@12c22898
-//    private constructor, instance created. u021.LazySingleton@1fe7344e
+    // multi thread will generate two or more instances.
+    // if your result is different from mine, run several times to verify yours.
+//    instance address: u021.LazySingleton@45e8464f
+//    instance address: u021.LazySingleton@40567879
+//    instance address: u021.LazySingleton@41e066da
+//    instance address: u021.LazySingleton@7eb2f567
   }
 }
