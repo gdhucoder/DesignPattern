@@ -33,6 +33,28 @@ public class EagerSingleton {
 这种方法仅有一个缺点，对象大时，占用系统资源较多。
 如果对象不大，占用系统资源较少，这是一个实现单例的好方法。
 
+## 懒汉模式（Lazy Initialization）
+
+在编程中，延迟初始化是一种编程技巧。在第一次需要时，才创建对象、计算值或者执行其他耗时的过程。
+
+```java
+public final class LazySingleton {
+
+  private static volatile LazySingleton instance = null;
+
+  private LazySingleton() {}
+
+  public static LazySingleton getInstance() {
+    if(instance==null){
+      synchronized (LazySingleton.class){
+        instance = new LazySingleton();
+      }
+    }
+    return instance;
+  }
+}
+```
+
 ## 用例
 
 ## 实际应用
