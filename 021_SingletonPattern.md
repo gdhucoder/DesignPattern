@@ -142,7 +142,9 @@ public class DemoSingleton implements Serializable {
 }
 ```
 
-## 序列号
+## 关于序列号
+
+序列化要加上序列号。若不加，这个了类如果修改的话，再次反序列化此前的类，会报 `local class incompatible`
 
 ```java
 Exception in thread "main" java.io.InvalidClassException: u021.seri.DemoSingleton; local class incompatible: stream classdesc serialVersionUID = -6928200329713978600, local class serialVersionUID = 2784835485903072265
@@ -157,20 +159,46 @@ Exception in thread "main" java.io.InvalidClassException: u021.seri.DemoSingleto
 
 >This problem can be solved only by adding a unique serial version id to the class. It will prevent the compiler from throwing the exception by telling it that both classes are same, and will load the available instance variables only.
 
+## 总结
 
+经过上面的讨论，那么一个推荐的单例模式该如何写呢？
 
-## 用例
+```java
+public class DemoSingleton implements Serializable {
 
-## 实际应用
+  private static final long serialVersionUID = 1L;
 
-## 注意
+  private DemoSingleton() {}
+
+  private static class DemoSingletonHolder {
+
+    private static final DemoSingleton instance = new DemoSingleton();
+  }
+
+  public static DemoSingleton getInstance() {
+    return DemoSingletonHolder.instance;
+  }
+
+  protected Object readResolve() {
+    return getInstance();
+  }
+}
+```
 
 ## 参考
 
 [双重检查锁🔒double-checked_locking](https://en.wikipedia.org/wiki/Double-checked_locking)
 
+## 问题
+
+### 分布式系统的单例有几个？
+
 Singleton is “one instance per JVM”, so each node will have its own copy of singleton.
 
+
+### 关于BillPughSingleton
+
+类初始化在JVM层面是线程安全的。
 
 ```java
 public class BillPughSingleton {
