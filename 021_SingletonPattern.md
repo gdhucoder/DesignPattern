@@ -47,7 +47,7 @@ public final class LazySingleton {
   private LazySingleton() {}
 
   public static LazySingleton getInstance() {
-    if(instance==null){
+    if(instance == null){
       synchronized (LazySingleton.class){
         instance = new LazySingleton();
       }
@@ -55,6 +55,23 @@ public final class LazySingleton {
     return instance;
   }
 }
+```
+
+Double Check:
+
+```java
+public static LazySingletonV2 getInstance() {
+    if (instance == null) {
+      synchronized (LazySingletonV2.class) {
+        if (instance == null) {
+          instance = new LazySingletonV2();
+          // multi thread will generate two or more instances.
+          System.out.println("instance address: " + instance);
+        }
+      }
+    }
+    return instance;
+  }
 ```
 
 ## 静态块初始化 Singleton with static block initialization
