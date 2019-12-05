@@ -21,6 +21,8 @@ an algorithm without changing the algorithms structure.
 
 一个跨平台的编译器，详见代码。
 
+[code example](./code/u010)
+
 ## 应用
 
 Java InputStream中的read()方法

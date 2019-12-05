@@ -16,6 +16,8 @@ The builder pattern is a design pattern that allows for the step-by-step creatio
 
 具体实现见代码。
 
+[code example](./code/u013)
+
 ## 实际应用
 
 建造者模式实际应用中往往不这么用。

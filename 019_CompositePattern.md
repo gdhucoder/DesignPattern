@@ -17,6 +17,8 @@ Composite lets clients treat individual objects and compositions of objects unif
 
 举的例子是小菜写公司OA系统遇到的困难。详细见代码。
 
+[code example](./code/u019)
+
 ## 实际应用
 
 - 公司员工之间的上下级关系。

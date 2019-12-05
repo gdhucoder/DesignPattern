@@ -18,6 +18,8 @@ into initial state when needed.
 
 大鸟🐦和小菜讨论了游戏保存进度的例子。具体见代码。
 
+[code example](./code/u018)
+
 ## 实际应用
 
 备忘录模式用于需要"撤销"，"恢复"或者"回滚"的情形。

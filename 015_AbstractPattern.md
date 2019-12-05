@@ -15,6 +15,8 @@ Provides an interface for creating families of related or dependent objects with
 
 大话设计模式中提到了一个换数据库的例子。具体实现见代码。
 
+[code example](./code/u015)
+
 ## 实际应用
 
 java 中 `DocumentBuilderFactor`

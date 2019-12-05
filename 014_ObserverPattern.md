@@ -18,6 +18,8 @@ all its dependents are notified and updated automatically.
 
 前台通知办公室的小伙伴们老板要回来啦！
 
+[code example](./code/u014)
+
 ## 实际应用
 
 当一个对象的状态改变需要通知其他对象的时候考虑使用观察者模式。让双方都依赖于抽象。

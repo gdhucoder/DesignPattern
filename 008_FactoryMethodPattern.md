@@ -22,6 +22,8 @@
 
 如果使用工厂方法模式，能克服简单工厂模式的缺点（违反开放-封闭原则）。
 
+[code example](./code/u008)
+
 工厂方法模式在添加新的操作类时，<u>需要添加新的操作类DivOper和DivFactory</u>。<u>客户端需要修改一行代码</u>：
 `IOperationFactory operationFactory = new AddFactory();`。
 

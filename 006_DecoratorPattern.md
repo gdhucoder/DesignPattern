@@ -18,6 +18,8 @@
 
 ## 代码
 
+[code example](./code/u006)
+
 Client
 
 ```java
