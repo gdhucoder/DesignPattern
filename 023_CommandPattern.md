@@ -19,7 +19,7 @@ queue or log requests, and support undoable operations.
 
 ## 实际应用
 
-Java的Runnable接口是一种命令模式模式。
+Java的Runnable接口是一种命令模式。
 
 ## 注意
 
