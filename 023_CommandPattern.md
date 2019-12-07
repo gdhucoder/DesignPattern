@@ -36,3 +36,5 @@ Java的Runnable接口是一种命令模式。
 - receiver执行具体的业务逻辑
 
 ## 参考
+
+[howtodo-command-pattern](https://howtodoinjava.com/design-patterns/behavioral/command-pattern/)
