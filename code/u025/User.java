@@ -1,6 +1,7 @@
 package u025;
 
 /**
+ * Abstract Colleague
  * Created by HuGuodong on 12/8/19.
  */
 public  abstract class User {

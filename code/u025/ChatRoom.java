@@ -5,6 +5,7 @@ import java.util.Map;
 import u023.v2.ICommand;
 
 /**
+ * Concrete Mediator
  * Created by HuGuodong on 12/8/19.
  */
 public class ChatRoom implements IChatRoom {

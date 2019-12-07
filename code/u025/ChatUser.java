@@ -1,6 +1,7 @@
 package u025;
 
 /**
+ * Concrete Colleague
  * Created by HuGuodong on 12/8/19.
  */
 public class ChatUser extends User {
