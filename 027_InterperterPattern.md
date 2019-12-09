@@ -26,6 +26,8 @@ build abstract syntax trees and then run the interpretation.
 
 客户端：创建抽象语法树。初始化环境，调用解释器解释。
 
+**SQL风格的查询**：[code example](./code/u027)
+
 ## 实际应用
 
 JDK中的使用：
