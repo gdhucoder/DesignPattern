@@ -24,7 +24,7 @@ Progress:
 - :white_check_mark: **20**
 - :negative_squared_cross_mark: **3** TBD
 
-
+Now the repo is under heavy developing. Keep an eye on it!.]
 
 
 
