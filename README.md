@@ -21,8 +21,8 @@ Features:
 
 Progress:
 
-- :white_check_mark: **20**
-- :negative_squared_cross_mark: **3** TBD
+- :white_check_mark: **21**
+- :negative_squared_cross_mark: **2** TBD
 
 Currently this repo is under heavy developing. Keep an eye on it!.
 
