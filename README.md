@@ -24,8 +24,15 @@ Progress:
 - :white_check_mark: **21**
 - :negative_squared_cross_mark: **2** TBD
 
-Currently this repo is under heavy developing. Keep an eye on it!.
+Currently this repo is under heavy development. Keep an eye on it!.
 
 
+Creational Design Patterns
 
+* Simple Factory Pattern
+* Factory Method Pattern
+* Abstract Factory Pattern
+* Builder Pattern
+* Prototype Pattern
+* Singleton Design Pattern
 
