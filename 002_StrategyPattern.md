@@ -1,5 +1,5 @@
 
-# 简单工厂模式（Simple Factory Method）
+# 策略模式（Strategy Pattern）
 
 ## 定义
 
