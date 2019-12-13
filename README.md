@@ -21,8 +21,9 @@ Features:
 
 Progress:
 
-- :white_check_mark: **21**
-- :negative_squared_cross_mark: **2** TBD
+- :white_check_mark: **23** design patterns
+- :negative_squared_cross_mark: **SOLID** TBD
+- :negative_squared_cross_mark: **add table to organize contents** TBD
 
 Currently this repo is under heavy development. Keep an eye on it!.
 
@@ -35,4 +36,6 @@ Creational Design Patterns
 * Builder Pattern
 * Prototype Pattern
 * Singleton Design Pattern
+
+
 
