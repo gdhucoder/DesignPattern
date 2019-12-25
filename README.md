@@ -23,7 +23,7 @@ Progress:
 
 - :white_check_mark: **23** design patterns
 - :white_check_mark: **SOLID**
-- :summary: **summary design pattern types** TBD
+- :negative_squared_cross_mark: **summary** TBD
 
 Currently this repo is under heavy development. Keep an eye on it!.
 
