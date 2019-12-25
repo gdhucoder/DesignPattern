@@ -13,7 +13,7 @@ Provides an interface for creating families of related or dependent objects with
 
 ## 用例
 
-大话设计模式中提到了一个换数据库的例子。具体实现见代码。
+《大话设计模式》中提到了一个换数据库的例子。具体实现见代码。
 
 [code example](./code/u015)
 
