@@ -28,6 +28,8 @@ all its dependents are notified and updated automatically.
 
 可能没有办法让每个类都实现Observer接口。实际使用事件委托机制EventHandler。下篇文章讲EventHandler。
 
+埋下一个坑，什么是事件委托机制？ 2019-12-27
+
 2019-11-26
 
 
