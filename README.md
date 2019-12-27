@@ -38,7 +38,7 @@ Currently this repo is under heavy development. Keep an eye on it!.
 
 5. [单例模式](021_SingletonPattern.md)：保证一个类仅有一个实例，并提供一个访问它的全局访问点。
 
-## 结构型模式
+### 结构型模式
 
 1. [适配器模式](017_AdapterPattern.md)：将一个类的接口转换成客户希望的另一个接口。适配器模式使得原本由于接口不兼容而不能一起工作的那些类可以一起工作。
 
