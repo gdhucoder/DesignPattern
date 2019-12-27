@@ -1,6 +1,7 @@
 package u028.v3;
 
 /**
+ * Concrete State
  * Created by HuGuodong on 12/10/19.
  */
 public class Success extends Action {
